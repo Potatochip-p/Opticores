@@ -17,6 +17,7 @@ Minecraft client
 - Distance, predictive, temporal, frustum, and conservative occlusion stages.
 - Occlusion tests are capped and cached.
 - Worker threads never access live world, entity, or chunk objects.
+- Virtual threads also improve the above
 
 ### Chunk/render scheduling
 - Adaptive CPU work budget based on hardware tier and current pressure.
